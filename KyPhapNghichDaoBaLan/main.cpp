@@ -379,6 +379,8 @@ int main()
 	chuyenTrungToSangHauTo(stackBD, queueBT, bieuthuc);
 	
 	cout <<"\nBieu thuc trung to: " << bieuthuc << endl;
+	cout << "Bieu thuc hau to: ";
+
 	inBieuThucHauTo(queueBT);
 	cout << "\nKet qua = " << tinhToanBieuThucHauTo(stackKQ, queueBT) << endl;
 	system("pause");
